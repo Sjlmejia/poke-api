@@ -1,4 +1,3 @@
-import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../store/store';
 import { removePokemonFromCombat } from '../store/combatSlice';
