@@ -63,7 +63,7 @@ export const ListPokemons = () => {
             <div
               className="absolute top-2 right-2 bg-gray-600 text-white w-6 h-6 rounded-full flex items-center justify-center cursor-pointer"
               onClick={(e) => {
-                e.stopPropagation(); // Evitar que el clic en "+" navegue a detalles
+                e.stopPropagation();
                 handleAddToCombat(pokemon);
               }}
             >
